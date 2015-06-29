@@ -1,2 +1,2 @@
 # PiCubesRexControls
-Test
+Rex Controls
