@@ -1,0 +1,565 @@
+Model {
+  Name                    "PiCube_task"
+  Version                 7.5
+  MdlSubVersion           0
+  SavedCharacterEncoding  "windows-1250"
+  SaveDefaultBlockParams  on
+  ScopeRefreshTime        "0.035000"
+  OverrideScopeRefreshTime on
+  DisableAllScopes        off
+  DataTypeOverride        "UseLocalSettings"
+  MinMaxOverflowLogging   "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  MaxMDLFileLineLength    120
+  Created                 "Fri Sep 17 13:31:26 2010"
+  Creator                 "jsobota"
+  UpdateHistory           "UpdateHistoryNever"
+  ModifiedByFormat        "%<Auto>"
+  LastModifiedBy          "jsobota"
+  ModifiedDateFormat      "%<Auto>"
+  LastModifiedDate        "Mon May 16 10:26:28 2011"
+  RTWModifiedTimeStamp    227442227
+  ModelVersionFormat      "1.%<AutoIncrement:7>"
+  ConfigurationManager    "none"
+  SampleTimeColors        off
+  SampleTimeAnnotations   off
+  LibraryLinkDisplay      "none"
+  WideLines               off
+  ShowLineDimensions      off
+  ShowPortDataTypes       off
+  ShowLoopsOnError        on
+  IgnoreBidirectionalLines off
+  ShowStorageClass        off
+  ShowTestPointIcons      on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons         on
+  SortedOrder             off
+  ExecutionContextIcon    off
+  ShowLinearizationAnnotations on
+  BlockNameDataTip        off
+  BlockParametersDataTip  on
+  BlockDescriptionStringDataTip off
+  ToolBar                 on
+  StatusBar               on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks   off
+  SimulationMode          "normal"
+  LinearizationMsg        "none"
+  Profile                 off
+  ParamWorkspaceSource    "MATLABWorkspace"
+  AccelSystemTargetFile   "accel.tlc"
+  AccelTemplateMakefile   "accel_default_tmf"
+  AccelMakeCommand        "make_rtw"
+  TryForcingSFcnDF        off
+  RecordCoverage          off
+  CovPath                 "/"
+  CovSaveName             "covdata"
+  CovMetricSettings       "dw"
+  CovNameIncrementing     off
+  CovHtmlReporting        on
+  CovForceBlockReductionOff on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName    "covCumulativeData"
+  CovCumulativeReport     off
+  CovReportOnPause        on
+  CovModelRefEnable       "Off"
+  CovExternalEMLEnable    off
+  ExtModeBatchMode        off
+  ExtModeEnableFloating   on
+  ExtModeTrigType         "manual"
+  ExtModeTrigMode         "oneshot"
+  ExtModeTrigPort         1
+  ExtModeTrigElement      "any"
+  ExtModeTrigDuration     1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff      0
+  ExtModeTrigDelay        0
+  ExtModeTrigDirection    "rising"
+  ExtModeTrigLevel        0
+  ExtModeArchiveMode      off
+  ExtModeAutoIncOneShot   off
+  ExtModeIncDirWhenArm    off
+  ExtModeAddSuffixToVar   off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect   off
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll           on
+  ExtModeAutoUpdateStatusClock on
+  BufferReuse             on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  #RexVersion             "2.10.6 rev. 5107, Date 2015-03-31"
+  BlockDefaults {
+    ForegroundColor         "black"
+    BackgroundColor         "white"
+    DropShadow              off
+    NamePlacement           "normal"
+    FontName                "Helvetica"
+    FontSize                10
+    FontWeight              "normal"
+    FontAngle               "normal"
+    ShowName                on
+    BlockRotation           0
+    BlockMirror             off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment     "center"
+    VerticalAlignment       "middle"
+    ForegroundColor         "black"
+    BackgroundColor         "white"
+    DropShadow              off
+    FontName                "Helvetica"
+    FontSize                10
+    FontWeight              "normal"
+    FontAngle               "normal"
+  }
+  LineDefaults {
+    FontName                "Helvetica"
+    FontSize                9
+    FontWeight              "normal"
+    FontAngle               "normal"
+  }
+  System {
+    Name                    "PiCube_task"
+    Location                [204, 34, 1790, 848]
+    Open                    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth       200
+    ScreenColor             "white"
+    PaperOrientation        "landscape"
+    PaperPositionMode       "auto"
+    PaperType               "usletter"
+    PaperUnits              "inches"
+    TiledPaperMargins       [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale          1
+    ShowPageBoundaries      off
+    ZoomFactor              100
+    ReportName              "simulink-default.rpt"
+    SIDHighWatermark        7
+    #GUID                   cd908f7d-f779-4842-a494-f67a48808ff5
+    Block {
+      BlockType               Reference
+      Name                    "CNI"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [120, 203, 140, 217]
+      SourceBlock             "mathlib/CNI"
+      icn                     5
+      #GUID                   2e2686af-526c-46e6-a7d8-b2568e7572a9
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI1"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [120, 228, 140, 242]
+      SourceBlock             "mathlib/CNI"
+      icn                     1
+      #GUID                   93c494b0-fe68-4a13-83b9-d80dcfaaaf7c
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI15"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [120, 633, 140, 647]
+      SourceBlock             "mathlib/CNI"
+      icn                     1
+      #GUID                   1572dc78-ce2e-4f43-b646-2a06c1164dbf
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI16"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [1110, 203, 1130, 217]
+      SourceBlock             "mathlib/CNI"
+      icn                     1
+      #GUID                   f9d30494-ffa6-4c58-96cd-53944c99ae00
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI17"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [1110, 228, 1130, 242]
+      SourceBlock             "mathlib/CNI"
+      icn                     1
+      #GUID                   8ff375b9-5a8d-442e-b9d1-c5206d258910
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI18"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [1110, 253, 1130, 267]
+      SourceBlock             "mathlib/CNI"
+      icn                     3
+      #GUID                   2530c832-cfa8-4143-8008-13a2057b54ba
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI2"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [120, 253, 140, 267]
+      SourceBlock             "mathlib/CNI"
+      icn                     1
+      #GUID                   b9234609-4ae3-465e-8e69-02d1f238648f
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI3"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [515, 278, 535, 292]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      #GUID                   1be0fe96-cd04-4435-863b-9c968f421de2
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI4"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [515, 203, 535, 217]
+      SourceBlock             "mathlib/CNI"
+      icn                     4
+      #GUID                   a32a5028-c9f0-480c-8338-5fa2ca54c99f
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI5"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [515, 228, 535, 242]
+      SourceBlock             "mathlib/CNI"
+      icn                     1
+      #GUID                   e417a2de-6d0d-4a87-8810-dcefc925d007
+    }
+    Block {
+      BlockType               Reference
+      Name                    "CNI6"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [515, 253, 535, 267]
+      SourceBlock             "mathlib/CNI"
+      icn                     0
+      #GUID                   6808696f-bad0-4cf9-864f-83afdf362a2e
+    }
+    Block {
+      BlockType               From
+      Name                    "From"
+      Ports                   [0, 1, 0, 0, 0]
+      Position                [125, 568, 235, 582]
+      ShowName                off
+      GotoTag                 "MTM__roomtemp"
+      NamePlacement           "alternate"
+      FontSize                10
+      BackgroundColor         [1.000000, 1.000000, 0.352941]
+      #GUID                   05a7d614-1e6f-4bbf-883b-c7cee6cc054b
+    }
+    Block {
+      BlockType               Reference
+      Name                    "GAIN"
+      Ports                   [1, 1, 0, 0, 0]
+      Position                [1480, 218, 1505, 232]
+      SourceBlock             "mathlib/GAIN"
+      k                       "0.01"
+      #GUID                   af9836b9-6158-4281-9b47-15139da73c83
+    }
+    Block {
+      BlockType               Reference
+      Name                    "GAIN1"
+      Ports                   [1, 1, 0, 0, 0]
+      Position                [345, 568, 370, 582]
+      SourceBlock             "mathlib/GAIN"
+      k                       "0.1"
+      #GUID                   0561f765-87c4-44f5-a83e-47c5c7df6bff
+    }
+    Block {
+      BlockType               Goto
+      Name                    "Goto"
+      Ports                   [1, 0, 0, 0, 0]
+      Position                [255, 634, 375, 646]
+      ShowName                off
+      GotoTag                 "MTM__enableclock"
+      TagVisibility           "local"
+      BackgroundColor         "lightBlue"
+      #GUID                   b049ec51-98dd-4144-af50-03b178866394
+    }
+    Block {
+      BlockType               Reference
+      Name                    "readUI"
+      Ports                   [17, 17, 0, 0, 0]
+      Position                [1325, 206, 1375, 384]
+      SourceBlock             "speclib/REXLANG"
+      SID                     4
+      LibraryVersion          "1.88"
+      SourceType              "REXLANG"
+      ShowPortLabels          "FromPortIcon"
+      SystemSampleTime        -1
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      tab_matlab              "BASIC"
+      srcname                 "readUI.c"
+      srctype                 "1: STL"
+      stack                   0
+      debug                   "1: No check"
+      p0                      0
+      p1                      0
+      p2                      0
+      p3                      0
+      p4                      0
+      p5                      0
+      p6                      0
+      p7                      0
+      p8                      0
+      p9                      0
+      p10                     0
+      p11                     0
+      p12                     0
+      p13                     0
+      p14                     0
+      p15                     0
+      fname                   "/dev/i2c-1"
+      #GUID                   841da5e5-95fd-4622-af5e-ba0a9dc6ee93
+    }
+    Block {
+      BlockType               Reference
+      Name                    "writeDO"
+      Ports                   [17, 17, 0, 0, 0]
+      Position                [300, 206, 350, 384]
+      SourceBlock             "speclib/REXLANG"
+      SID                     4
+      LibraryVersion          "1.88"
+      SourceType              "REXLANG"
+      ShowPortLabels          "FromPortIcon"
+      SystemSampleTime        -1
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      tab_matlab              "BASIC"
+      srcname                 "writeDO.c"
+      srctype                 "1: STL"
+      stack                   0
+      debug                   "1: No check"
+      p0                      0
+      p1                      0
+      p2                      0
+      p3                      0
+      p4                      0
+      p5                      0
+      p6                      0
+      p7                      0
+      p8                      0
+      p9                      0
+      p10                     0
+      p11                     0
+      p12                     0
+      p13                     0
+      p14                     0
+      p15                     0
+      fname                   "/dev/i2c-1"
+      #GUID                   76852e46-e48f-4267-b434-b0cf27f1b52e
+    }
+    Block {
+      BlockType               Reference
+      Name                    "writeUO"
+      Ports                   [17, 17, 0, 0, 0]
+      Position                [720, 206, 770, 384]
+      SourceBlock             "speclib/REXLANG"
+      SID                     4
+      LibraryVersion          "1.88"
+      SourceType              "REXLANG"
+      ShowPortLabels          "FromPortIcon"
+      SystemSampleTime        -1
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      tab_matlab              "BASIC"
+      srcname                 "writeUO.c"
+      srctype                 "1: STL"
+      stack                   0
+      debug                   "1: No check"
+      p0                      0
+      p1                      0
+      p2                      0
+      p3                      0
+      p4                      0
+      p5                      0
+      p6                      0
+      p7                      0
+      p8                      0
+      p9                      0
+      p10                     0
+      p11                     0
+      p12                     0
+      p13                     0
+      p14                     0
+      p15                     0
+      fname                   "/dev/i2c-1"
+      #GUID                   4dbec1dc-01f0-4963-9bc1-77781299693e
+    }
+    Line {
+      SrcBlock                "CNI"
+      SrcPort                 1
+      Points                  [140, 0]
+      DstBlock                "writeDO"
+      DstPort                 2
+      #GUID                   994d9d69-7e3a-4f7f-a145-4df5ea4d3adf
+    }
+    Line {
+      SrcBlock                "CNI1"
+      SrcPort                 1
+      DstBlock                "writeDO"
+      DstPort                 3
+      #GUID                   bed12453-1264-444b-8afe-cf4226a23205
+    }
+    Line {
+      SrcBlock                "CNI15"
+      SrcPort                 1
+      DstBlock                "Goto"
+      DstPort                 1
+      #GUID                   21e62178-3b39-42f8-abcc-cfd648f59528
+    }
+    Line {
+      SrcBlock                "CNI16"
+      SrcPort                 1
+      Points                  [175, 0]
+      DstBlock                "readUI"
+      DstPort                 2
+      #GUID                   076035fc-bfee-44d9-9a64-dedbe2eb0334
+    }
+    Line {
+      SrcBlock                "CNI17"
+      SrcPort                 1
+      DstBlock                "readUI"
+      DstPort                 3
+      #GUID                   a1a9121d-b098-430d-8abc-509e73c8990c
+    }
+    Line {
+      SrcBlock                "CNI18"
+      SrcPort                 1
+      Points                  [175, 0]
+      DstBlock                "readUI"
+      DstPort                 4
+      #GUID                   865ddde6-c55b-4a46-b499-5f8fa3748afe
+    }
+    Line {
+      SrcBlock                "CNI2"
+      SrcPort                 1
+      Points                  [140, 0]
+      DstBlock                "writeDO"
+      DstPort                 4
+      #GUID                   5ca62264-f8b4-4140-9599-e1faef6c4a12
+    }
+    Line {
+      SrcBlock                "CNI3"
+      SrcPort                 1
+      Points                  [165, 0]
+      DstBlock                "writeUO"
+      DstPort                 5
+      #GUID                   0d986e3f-0744-494c-ac41-2a1acce808a2
+    }
+    Line {
+      SrcBlock                "CNI4"
+      SrcPort                 1
+      Points                  [165, 0]
+      DstBlock                "writeUO"
+      DstPort                 2
+      #GUID                   745b313a-4b21-4204-8297-b29336055026
+    }
+    Line {
+      SrcBlock                "CNI5"
+      SrcPort                 1
+      DstBlock                "writeUO"
+      DstPort                 3
+      #GUID                   d004c253-821a-4007-99a6-9fbb0ca4ae30
+    }
+    Line {
+      SrcBlock                "CNI6"
+      SrcPort                 1
+      Points                  [0, -15]
+      DstBlock                "writeUO"
+      DstPort                 4
+      #GUID                   6aa8540a-e6f3-47cd-9d93-8a41940c29f3
+    }
+    Line {
+      SrcBlock                "From"
+      SrcPort                 1
+      DstBlock                "GAIN1"
+      DstPort                 1
+      #GUID                   a048d7d1-3487-4e2d-8895-5b26ef1dccce
+    }
+    Line {
+      SrcBlock                "readUI"
+      SrcPort                 2
+      DstBlock                "GAIN"
+      DstPort                 1
+      #GUID                   71f4235c-81dd-42cb-a3f9-5d43afd057f5
+    }
+    Annotation {
+      Position                [245, 135]
+      Text                    "Control Pi-Cube DO Board"
+      FontWeight              "bold"
+      FontSize                16
+      #GUID                   84b1a1d6-b73f-4847-9a61-26916343f28b
+    }
+    Annotation {
+      Position                [160, 320]
+      Text                    "u0 - Module address (1-6)\nu1 - Output number ("
+"1-4)\nu2  - Digital output value 0-Off,1-On"
+      FontSize                12
+      #GUID                   39e8fd0d-1a6e-42c3-a901-7569ccc0e10e
+    }
+    Annotation {
+      Position                [635, 135]
+      Text                    "Control Pi-Cube UO Board"
+      FontWeight              "bold"
+      FontSize                16
+      #GUID                   39ff3cde-8ef6-4f55-87f3-3fe38313b989
+    }
+    Annotation {
+      Position                [575, 385]
+      Text                    "u0 - Module address (1-6)\nu1 - Output number ("
+"1-4)\nu2 - Output type\n            0 = Digital , \n            1 = Modulation"
+" ,\n            2-255 = PWM with this period in sec.\nu3 - Output value  \n   "
+"         0 or 1 for digital type \n            0-100% for Modulation/PWM"
+      FontSize                12
+      #GUID                   3d2a099c-69f2-4f89-b086-dfe626592302
+    }
+    Annotation {
+      Position                [760, 45]
+      Text                    "PiCube IO Modules Demo\n"
+      FontWeight              "bold"
+      FontSize                22
+      #GUID                   e2385915-7a39-4fd9-8e6a-a2cd2125be8a
+    }
+    Annotation {
+      Position                [1080, 360]
+      Text                    "u0 - Module address (1-6)\nu1 - Input number (1"
+"-4)\nu2  - Input Type\n            0 = Resistance (Return value 0-350000)\n   "
+"         1 = Digital (Return value 0-1)\n            2 = Voltage/Current (Retu"
+"rn value 0-100%,represent 0-10V/0-20mA) \n            3 = 10K Type II Thermist"
+"or (Return value -4000 to 14000, scale 0.01)\n            4 = Pulse Input (Ret"
+"urn value is counter value)  \n\ny0 - Return Value"
+      FontSize                12
+      #GUID                   5dcaf3b9-c939-4cc2-9c8b-b043e87c59cb
+    }
+    Annotation {
+      Position                [245, 510]
+      Text                    "Pi-Cube Stat Modbus Communication\n"
+      FontWeight              "bold"
+      FontSize                16
+      #GUID                   ba91f6c9-962d-48d0-a631-20af80ef0e71
+    }
+    Annotation {
+      Position                [1150, 135]
+      Text                    "Control Pi-Cube UI Board"
+      FontWeight              "bold"
+      FontSize                16
+      #GUID                   65d698c0-41be-4da0-bb8f-7c5b6a784244
+    }
+  }
+}

@@ -1,0 +1,26 @@
+Modbus {
+  Name                    "/dev/ttyAMA0"
+  BaudRate                9600
+  Parity                  0
+  SpaceTime               2
+  Timeout                 1000
+  Flags                   0
+  Gap                     30000
+  #GUID                   3e9638cb-81fd-41f0-9229-1f212e9952f8
+  Item {
+    Name                    roomtemp
+    SlaveAdr                1
+    RegisterAdr             0
+    Type                    0x00000204
+    Count                   1
+    Period                  2000
+  }
+  Item {
+    Name                    enableclock
+    SlaveAdr                1
+    RegisterAdr             10
+    Type                    0x00000304
+    Count                   1
+    Period                  2000
+  }
+}
